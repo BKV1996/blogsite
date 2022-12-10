@@ -1,0 +1,17 @@
+.contact-content{
+    height: 38vh;
+    /* background-color: rgb(251, 251, 252); */
+    margin-top: 32px;
+    padding: 0px;
+    position: relative;
+}
+.contact-content::after{
+    content: "";
+    background-image: url('../teach.jpg');
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+}

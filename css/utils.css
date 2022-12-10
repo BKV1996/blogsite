@@ -1,0 +1,47 @@
+:root{
+    --main-bg-color: brown;
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.mx-1{
+    margin: 10px;
+}
+.form-input{
+    padding: 3px 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 13px;
+    
+}
+.btn{
+    padding: 3px 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 13px;
+    cursor: pointer;
+    background-color: rgb(223, 85, 85);
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: azure;
+}
+
+.form-box input, textarea{
+    width: 30vw;
+    padding: 2px 1px;
+    margin: 3px 0;
+    font-size: 14px;
+    border: 2px solid rgb(173, 117, 13);
+    border-radius: 5px;
+}

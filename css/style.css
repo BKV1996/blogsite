@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    /* height: 74px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    height: 100%;
+    /* background-color: rgb(251, 251, 252); */
+    display: flex;
+    margin-top: 32px;
+    padding: 0px;
+    
+    position: relative;
+}
+.content::after{
+    content: "";
+    background-image: url('../teach.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+}
+.content-left{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 13px;
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img{
+    border: 2px solid black;
+    border-radius: 200px;
+    height: 150px;
+}
+
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+.nav-left span{
+    font-size: 35px;
+    padding-top: 10px;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    font-size: 22px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.home-articles{
+    background-color: rgb(228, 198, 198);
+    padding: 10px;
+    position: relative;
+}
+.home-article{
+    display: flex;
+    padding: 10px;
+}
+
+.year-box{
+    position: absolute;
+    /* background-color: red; */
+    right: 19px;
+    top: 12px;
+    width: 95px;
+    height: 72px;
+    font-size: 17px;
+}
+.year-box div{
+    margin: 5px 0;
+}
+.home-article img{
+    width: 250px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 0 20px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height: 50px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
