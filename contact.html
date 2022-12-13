@@ -32,7 +32,7 @@
     <div class="max-width-1 m-auto">
         <hr>
     </div>
-    <div class="contact-content max-width-1 m-auto">
+    <form onsubmit="sendEmail(); reset(); return false;" class="contact-content max-width-1 m-auto">
         <div class="max-width-1 m-auto mx-1">
             <h2>Feel free to contact Us</h2>
             <div class="contact-form">
@@ -43,22 +43,23 @@
                     <input type="phone" placeholder="Enter your phone number" name="phone" id="phone" required>
                 </div>
                 <div class="form-box">
-                    <input type="email" placeholder="Enter your email id" name="email" id="phone" required>
+                    <input type="email" placeholder="Enter your email id" name="email" id="email" required>
                 </div>
                 <div class="form-box">
-                    <textarea name="" id="" rows="4" placeholder="Write Feedback here." required></textarea>
+                    <textarea name="" id="message" rows="4" placeholder="Write Feedback here." required></textarea>
                 </div>
                 <div class="form-box">
-                    <button class="btn">Submit</button>
+                    <button type="submit" class="btn">Submit</button>
                 </div>
             </div>
         </div>
-    </div>
-
+    </form>
     <div class="footer max-width-2 m-auto">
         <p>Copyright &copy; gyanadda.ml</p>
 
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/js/contact.js"></script>
 </body>
 
 </html>

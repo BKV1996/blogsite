@@ -20,7 +20,7 @@
 }
 .content::after{
     content: "";
-    background-image: url('../teach.jpg');
+    background-image: url('../images/background.jpg');
     position: absolute;
     width: 100%;
     height: inherit;
@@ -39,9 +39,9 @@
     justify-content: center;
 }
 .content-right img{
-    border: 2px solid black;
-    border-radius: 200px;
-    height: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 173px;
 }
 
 .nav-left{
@@ -70,7 +70,8 @@
     color: black;
 }
 .home-articles{
-    background-color: rgb(228, 198, 198);
+    /* background-color: rgb(228, 198, 198); */
+    background-image: url('../images/article-background.jpg');
     padding: 10px;
     position: relative;
 }
