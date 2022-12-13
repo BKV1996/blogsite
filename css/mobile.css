@@ -9,9 +9,11 @@
     }
     .nav-right{
         text-align: center;
+        padding-top: 10px;
     }
     .content{
         flex-direction: column;
+        padding-top: 0;
     }
     .content-right{
         
@@ -51,5 +53,8 @@
     }
     /* .post-img{
         height: auto;
+    } */
+    /* .footer{
+        padding-top: 25px;
     } */
 }

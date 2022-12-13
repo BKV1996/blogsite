@@ -45,8 +45,8 @@
 }
 
 .nav-left{
-    font-size: 20px;
     display: flex;
+    font-weight: 500;
 }
 .nav-left span{
     font-size: 35px;
@@ -60,6 +60,7 @@
 }
 
 .nav-left ul li{
+    font-size: 23px;
     list-style: none;
     margin: 0 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -74,6 +75,7 @@
     background-image: url('../images/article-background.jpg');
     padding: 10px;
     position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .home-article{
     display: flex;
@@ -110,4 +112,6 @@
     align-items: center;
     justify-content: center;
     color: black;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
