@@ -7,7 +7,7 @@
 }
 .contact-content::after{
     content: "";
-    background-image: url('../teach.jpg');
+    background-image: url('../images/teach.jpg');
     position: absolute;
     top: 0;
     z-index: -1;
