@@ -41,7 +41,7 @@
 .content-right img{
     border: 1px solid black;
     border-radius: 15px;
-    height: 173px;
+    height: 278px;
 }
 
 .nav-left{
@@ -107,6 +107,7 @@
 }
 .footer{
     height: 50px;
+    font-size: 15px;
     /* background-color: blueviolet; */
     display: flex;
     align-items: center;

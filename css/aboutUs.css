@@ -1,5 +1,5 @@
 .post-img-1 {
-    height: 255px;
+    height: 115px;
     overflow: hidden;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -7,4 +7,7 @@
 
 .post-img-1 img {
     width: 100%;
+}
+.content-left p{
+    font-size: 18px;
 }
