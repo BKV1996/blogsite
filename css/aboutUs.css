@@ -8,11 +8,16 @@
 .post-img-1 img {
     width: 100%;
 }
-.content-left p{
+
+.content-left p {
     font-size: 18px;
 }
-.content-right-1 img{
-    height: 278px;
+
+.content-right-1 img {
+    height: 263px;
     border: 1px solid black;
     border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
